@@ -25,8 +25,7 @@ export default function Navbar() {
                     <li className="group">
                         <div className="h-19 w-full flex items-center justify-center">
                             <Link
-                                href="#games"
-                                scroll={true}
+                                href="/"
                                 className="text-2xl font-bold text-white group-hover:text-primary-orange group-hover:duration-200"
                             >
                                 Tickets

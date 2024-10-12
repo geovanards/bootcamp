@@ -11,7 +11,7 @@ export default function Home() {
       
       <div className="relative z-10 w-[720px] flex flex-col items-center text-center">  
         <div className="w-2/3 h-[500px] bg-evento_logo bg-contain bg-center mb-4 bg-no-repeat" />
-        <h2 className="text-base text-secundary drop-shadow-lg mb-2">Uma noite pra ficar na história da sua vida!</h2>
+        <h2 className="text-base text-secundary drop-shadow-lg mb-2">Uma noite Eclipse pra ficar na história da sua vida!</h2>
       
         <CountdownTimer targetDate={targetDate} />
 

@@ -1,4 +1,4 @@
-"use client"; // Adicione isso no topo do arquivo
+"use client";
 
 import { useEffect, useState } from 'react';
 
@@ -20,14 +20,12 @@ const CountdownTimer = ({ targetDate }) => {
       time--;
     };
 
-    // Inicializa o timer
     updateTimer();
     const timer = setInterval(updateTimer, 1000);
 
-    return () => clearInterval(timer); // Limpa o timer quando o componente é desmontado
+    return () => clearInterval(timer);
   }, [targetDate]);
 
-  // Função para formatar o tempo
   const formatTime = (seconds) => {
     const days = Math.floor(seconds / (24 * 3600));
     seconds %= (24 * 3600);
