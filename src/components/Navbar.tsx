@@ -25,7 +25,7 @@ export default function Navbar() {
                 <div className='clear-both'></div>
 
                 <div className={`h-screen w-full backdrop-blur-2xl fixed top-0 before:absolute before:h-full before:w-full before:bg-secundary sm:absolute before:opacity-80 sm:before:opacity-0 sm:backdrop-blur-none ${menuVisible ? 'block' : 'hidden'} duration-300 transition-all sm:block sm:right-0 sm:duration-0 flex items-center justify-center`}>
-                    <ul className='flex flex-col sm:flex-row justify-center items-center space-x-0 gap-6 sm:mr-8 md:text-base lg:mr-16'>
+                    <ul className='flex flex-col sm:flex-row justify-center items-center space-x-0 gap-6 sm:mx-8 md:text-base lg:mx-16'>
                         <li className='group relative flex flex-col items-center'>
                             <div className='h-16 w-full flex items-center md:h-20'>
                                 <Link href="/" className="text-2xl font-bold text-white text-center group-hover:text-primary-orange group-hover:duration-200">Home</Link>
