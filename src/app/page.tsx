@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import CountdownTimer from '@/components/CountdownTimer';
+// import CountdownTimer from '@/components/CountdownTimer';
 
 export default function Home() {
   const targetDate = new Date('2024-10-31T23:59:00');
@@ -13,7 +13,7 @@ export default function Home() {
         <div className="w-2/3 h-[300px] bg-evento_logo bg-contain bg-center mb-4 bg-no-repeat min-[600px]:h-1/2" />
         <h2 className="text-base text-secundary drop-shadow-lg mb-2">Uma noite Eclipse pra ficar na história da sua vida!</h2>
       
-        <CountdownTimer targetDate={targetDate} />
+        {/* <CountdownTimer targetDate={targetDate} /> */}
 
         <Link href={"/"} className='px-8 py-4 bg-primary-orange rounded-full font-bold text-xl mt-6'>ADIQUIRIR INGRESSO</Link>
       </div>
