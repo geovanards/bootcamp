@@ -5,6 +5,7 @@ Um espaço de eventos fictício criado para um projeto acadêmico em grupo da ma
 ### Membros
 Projeto realizado por:
 - [Alysson Kennedy](https://github.com/AlyssonKe)
+- [Matheus Costa](https://github.com/matheuscostaps)
 - [Geovana Rodrigues](https://github.com/geovanards)
 - [Tais Doring](https://github.com/TaisDF)
 
