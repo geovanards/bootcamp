@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import CountdownTimer from '../components/CountdownTimer';
+import CountdownTimer from '@/components/CountdownTimer';
 
 export default function Home() {
   const targetDate = new Date('2024-10-31T23:59:00');
