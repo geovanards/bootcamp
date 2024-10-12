@@ -22,14 +22,14 @@ const config: Config = {
     },
     extend: {
       backgroundImage: {
-        "halloween_banner": "url('/images/Halloween_Landing_Page_Banner.png')",
-        "evento_logo": "url('/images/Noite_Sombria_Logo.png')",
+        "halloween_banner": "url('/Halloween_Landing_Page_Banner.png')",
+        "evento_logo": "url('/Noite_Sombria_Logo.png')",
         "red-gradient": "linear-gradient(0deg, rgba(66,24,8,1) 0%, rgba(66,24,8,0.5) 42%, rgba(66,24,8,0) 100%)",
-        'menu-button': "url('/images/menu-button.svg')",
-
-        "eclipse_logo": "url('/images/EclipseLogo.png')",
-        "eclipse_logo_black": "url('/images/EclipseLogo_Black.png')",
-        "eclipse_logo_orange": "url('/images/EclipseLogo_Orange.png')",
+        'menu-button': "url('/menu-button.svg')",
+        
+        "eclipse_logo": "url('/EclipseLogo.png')",
+        "eclipse_logo_black": "url('/EclipseLogo_Black.png')",
+        "eclipse_logo_orange": "url('/EclipseLogo_Orange.png')",
       },
     },
   },
