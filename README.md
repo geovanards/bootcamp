@@ -1,6 +1,6 @@
 # 🌙 Eclipse Events
 
-Um espaço de eventos fictício criado para um projeto acadêmico em grupo da matéria de bootcamp.
+Um espaço de eventos fictício criado para um projeto acadêmico em grupo da matéria de bootcamp. 
 
 ### 🤝 Membros
 Projeto realizado por:
